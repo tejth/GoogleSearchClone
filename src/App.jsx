@@ -5,14 +5,20 @@ import SearchResult from "./components/SearchResult";
 import { AppContext } from "./utils/ContextApi";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/" element={<SearchResult />} />
-      </Routes>
-    </BrowserRouter>
-  );
+    return (
+        <AppContext>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" exact element={<Home />} />
+                    <Route
+                        path="/:query/:startIndex"
+                        exact
+                        element={<SearchResult />}
+                    />
+                </Routes>
+            </BrowserRouter>
+        </AppContext>
+    );
 }
 
 export default App;
