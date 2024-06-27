@@ -50,6 +50,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 # Most Difficult part of project
 Creating pagnination to navigate user to different pages on the event of onClick by using useNavigate Hooks.
 
+ # #DEPLOYING THE CLONE USING NETLIFY                                                                                                                        
+   - run the command “npm run build”
+   - go to netlify site and sign up or login
+   - Go to the sites option at home page and drop the build folder
+
+   [Netlify App](https://app.netlify.com/teams/myrandom915/sites)
+
+   - You will gwt a link of your app after uploading finishes.
 
 
 
