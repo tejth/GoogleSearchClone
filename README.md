@@ -37,6 +37,18 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 # Major Learnings during this project
+<ul>
+<li>Learned the concept and useage of react-router-dom to create routes to different URL's</li>
+<li>Practical use case of useState to use and set state of various variables</li>
+<li> Use of Tailwind css classes to create various components           </li>
+<li> Use of context api to make different states available throughout different web pages</li>
+<li>Use of Google API to fetch and display results on webpage</li>
+<li> Useage of useEffect to reseting the state of variables whenever change in dependencies occur</li>
+<li>Use of react icon library too import different icons</li>
+</ul>
+
+# Most Difficult part of project
+Creating pagnination to navigate user to different pages on the event of onClick by using useNavigate Hooks.
 
 
 
